@@ -1,0 +1,16 @@
+{
+  "name": "crypresstest",
+  "version": "1.0.0",
+  "description": "software for cypress testing",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.7.0",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC"
+}
