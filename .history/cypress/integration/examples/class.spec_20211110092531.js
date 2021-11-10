@@ -40,7 +40,7 @@ describe('Abstraction with Classes', () => {
         // runs after each it block in the describe block
     })
 
-    it.only('1st IT', () => {
+    it.skip('1st IT', () => {
         HomePage.scrollToBottom()
         HomePage.wait(5000)
         HomePage.scrollToTop()
